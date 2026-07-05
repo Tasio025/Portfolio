@@ -1,3 +1,7 @@
+<?php 
+$pg = "Inicio";
+?>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -9,34 +13,18 @@
     <link rel="stylesheet" href="css/bootstrap/js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="css/estilos.css">
 
+<!--PARA TERMINAR: 
+1_ CAMBIAR DE COLOR LAS LETRAS DE LA PRESENTACIÓN (DEAJO DEL COETE)
+2_ AJUSTAR EL BOTÓN "ONOCÉ MIS PROYECTOS"
+3_ AGREGAR EL HEADER EN EL BOTÓN HAMBURGUESA DE LA VERSIÓN MOBILE
+4_ MEJORAR LA RESPONSIVIDAD DE LA VERSIÓN MOBILE
+5_ MEJORAR EL BOTÓN DE WHATSAPP-->
+
 </head>
 <body id="Inicio">
     <header class="container">
-        <nav>
-            <nav class="navbar navbar-expand-md mb-4">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="proyectos.html">Proyectos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="contactos.html" class="nav-link">Contactos</a>
-    
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-        </nav>
+       <?php include_once("menu.php") ?> <!--Esta función va a incluir todo lo que haya en el archivo de menu.php y lo va a pasar
+       a esta parte del código-->
     </header>
     <main class="container">
       <div class="row">
@@ -45,9 +33,10 @@
         </div>
         <div class="col-12 col-sm-6 col offset-sm-3 text-center ">
           <div class="my-4"><p class="px-5 py-2">Bienvenido a mi sitio web sobre desarrollo de sistemas</p></div>
+          <!--CAMBIAR DE COLOR LAS LETRAS DE ESTE TEXTO-->
         </div>
          <div class="col-12 text-center my-3">
-          <a href="proyectos.html" class="btn shadow">Conocé mis proyectos</a>
+          <a href="proyectos.php" class="btn shadow">Conocé mis proyectos</a>
         </div>
       </div>
     </main>

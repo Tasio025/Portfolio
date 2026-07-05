@@ -1,3 +1,38 @@
+<?php 
+$pg = "Contactos";
+
+if($_POST){ //Si es post recupero todos los datos que estan en las variables
+$nombre = $_POST["txtNombre"];
+$correo = $_POST["txtCorreo"];
+$tel = $_POST["txtTel"];
+$mensaje = $_POST["txtMensaje"];
+
+//Varios destinatarios          A partir de aca tengo que investigar bien como armar esta parte de las cabeceras
+$para = "tasioalvarez11@gmail.com"; //mi mail
+$titulo = "Recibiste un mensaje desde tu web"; 
+
+//Mensaje
+$cuerpo = "
+Nombre: $nombre <br>
+Correo: $correo <br>
+Telefono: $tel <br>
+Mensaje: $mensaje
+";  //Esto es basicamente lo que se va a enviar
+
+//Para enviar un correo html, debe establecerse la cabecera Content-type
+$cabeceras = "MIME-Version: 1.0" . "\r\n";//Cabeceras
+$cabeceras .= "Content-type: text/html; charset=UTF-8" . "\r\n"; //Aca tengo que poner la cabecera 2, todavia no se para que son pero tengo que ver el video de nelson
+
+//Cabeceras adicionales
+$cabeceras .= "To: tasioalvarez11@gmail.com";  //Cabecera adicional
+$cabeceras .= "From: info@(nombre de mi dominio)";
+
+//Enviarlo
+mail($para, $titulo, $cuerpo, $cabeceras);
+header("Location: confirmacion_envio.php");
+}
+?>
+
 <html lang="es" class="h-100">
 <head>
     <meta charset="UTF-8">
@@ -10,37 +45,12 @@
     que la página pese menos y así cargue más rápido-->
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
+<!--PARA TERMINAR: 
+1_ AGREGAR CV A "DESCARGAR MI CV"
+2_ MEJORAR BOTÓN DE WHATSAPP-->
 <body id="contacto" class="d-flex flex-column h-100">
-    <header class="container">
-                     <nav class="navbar navbar-expand-md mb-4">
-                        <div class="container-fluid">
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarCollapse">
-                            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                              <li class="nav-item">
-                                <a class="nav-link " href="index.html" type="submit">Inicio</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="proyectos.html">Proyectos</a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="contactos.html" class="nav-link active">Contctos</a><!--El profe le agrega "active" la parte
-                                del nav-link en la que estamos, en este caso "Contactos"-->
-                              </li>
-                            </ul>
-                            <div class="cv">
-                                <a href="">Descargar mi CV <i class="fas fa-download"></i></a>
-                            </div>
-                          </div>
-                        </div>
-        </nav>
-    </header>
-   
+    <?php include_once("menu.php") ?>
     <main class="container"> <!--Ahora empezamos a dibujar las filas y columnas-->
         <div class="row">
             <div class="col-12 pt-3 pb-5">

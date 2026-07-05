@@ -1,3 +1,7 @@
+<?php 
+$pg = "Proyectos";
+?>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -9,35 +13,16 @@
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
+<!--PARA TERMINAR:
+1_ AJUSTAR "PROYECTO INTEGRADOR"
+2_ AGREGAR CV A "AGREGAR MI CV"
+3_ MEJORAR EL TEXTO DE WHATSAPP-->
+
 <body id="proyectos">
     <header class="container">
         <nav>
-                     <nav class="navbar navbar-expand-md  mb-4">
-                        <div class="container-fluid">
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarCollapse">
-                            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                              <li class="nav-item">
-                                <a class="nav-link " href="index.html">Inicio</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link active" href="proyectos.html">Proyectos</a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="contactos.html" class="nav-link">Contactos</a>
-                              </li>
-                            </ul>
-                            <div class="cv">
-                              <a href="">Descargar mi CV <i class="fas fa-download"></i></a>
-                            </div>
-                          </div>
-                        </div>
-        </nav>
+         <?php include_once("menu.php") ?>
     </header>
     <main class="container">
       <div class="row">

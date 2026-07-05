@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body{
-    font-family: 'Monserrat' sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 #contacto, #inicio{
     background-image: url("../imagenes/Imagenes/fondo-contacto.png");
@@ -12,8 +12,8 @@ body{
 }
 .FotoCv{
     width: 100%;
-    max-width: 250%;
-    border-radius: 50%;
+    max-width: 300px;
+    border-radius: 100%;
 
 }
 h1{
@@ -22,8 +22,9 @@ h1{
 .btn{
     color: rgb(100, 6, 183);
     background-color: white;
-    border: 0px;
+    border: none;
     border-radius: 15px;
+    padding: 10px 20px;
 }
 .btn:hover{
     color: white;
@@ -68,7 +69,7 @@ p{
     text-align: center;
     padding: 8px 0 0 0;
     border-radius: 80px;
-    margin: 0 8 px;
+    margin: 0 8px;
 }
 #proyectos footer a{
     color: rgb(100, 6, 183);
@@ -95,7 +96,7 @@ p{
     text-align: center;
     padding: 8px 0 0 0;
     border-radius: 80px;
-    margin: 0 8 px;
+    margin: 0 8px;
 }
 .btn-whatsapp{
     position: fixed;
@@ -191,4 +192,98 @@ form input[type=text], form input[type=date], form input[type=tel], form input[t
    border-radius: 15px;
    font-weight: 600;
 
+}
+#stack-tecnologico{
+  background: #f73434;
+background: linear-gradient(90deg, rgba(247, 52, 52, 1) 0%, rgba(168, 7, 7, 1) 47%, rgba(64, 0, 0, 1) 100%);
+    padding-top: 45px;
+    padding-bottom: 45px;
+    
+}
+#stack-tecnologico .tecnologia{
+    background-color: white; /*El profe lo pone en blanco*/
+    border-radius: 15px;
+    text-align: center;
+}
+#stack-tecnologico .tecnologia img{
+    height: 90px;
+}
+#stack-tecnologico h2{
+    font-size: 24px;
+    color: white;
+}
+/*#stack-tecnologico h3{
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+}*/
+
+#stack-tecnologico .i{
+    font-size: 40px;
+    color: white;
+}
+#experiencia h2{
+    font-size: 24px;
+    color:  rgb(100, 6, 183);
+    font-weight: 400;
+}
+#experiencia h3{
+    color: grey;
+    font-size: 18px;
+    font-weight: 600;
+}
+#experiencia h4{
+    font-size: 27px;
+    color: grey;
+    font-weight: 400;
+}
+#experiencia h5{
+    font-size: 14px;
+    color:  grey
+}
+.baw {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.baw:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(0%);
+}
+#formacion h2{
+     font-size: 24px;
+    color:  rgb(100, 6, 183);
+    font-weight: 400;
+}
+#formacion h3{
+    color: grey;
+    font-size: 18px;
+    font-weight: 600;
+}
+#formacion h4{
+     font-size: 27px;
+    color: grey;
+    font-weight: 400;
+}
+#formacion h5{
+      font-size: 14px;
+    color:  grey
+}
+#cursos h2{
+    font-size: 24px;
+    color:  rgb(100, 6, 183);
+    font-weight: 400;
+}
+#cursos h3{
+     color: grey;
+    font-size: 18px;
+    font-weight: 600;
+}
+#cursos h4{
+     font-size: 27px;
+    color: grey;
+    font-weight: 400;
+}
+#cursos h5{
+     font-size: 14px;
+    color:  grey
 }
