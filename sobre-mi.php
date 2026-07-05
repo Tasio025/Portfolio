@@ -92,19 +92,20 @@ $pg = "Sobre-mi";
                 <img src="ImagenesPortfolio/CppLogo.png" alt="C++">
               </div>
             </div>
+            <!--
             <div class="col-sm-2 col-6">
               <div class="tecnologia mb-4 pb-3">
-                8
+                8 AGREGAR MYSQL
               </div>
             </div>
             <div class="col-sm-2 col-6">
               <div class="tecnologia mb-4 pb-3">
-                9
+                9 AGREGAR GIT/GITHUB
               </div>
             </div>
             <div class="col-sm-2 col-6">
               <div class="tecnologia mb-4 pb-3">
-                10
+                10 AGREGAR FIGMA
               </div>
             </div>
             <div class="col-sm-2 col-6">
@@ -117,9 +118,11 @@ $pg = "Sobre-mi";
                 12
               </div>
             </div>
+                -->
           </div>
         </div>
       </section>
+      <!--
       <section id="experiencia">
       <div class="container">
         <div class="row">
@@ -128,7 +131,7 @@ $pg = "Sobre-mi";
           </div>
         </div>
 
-        <!-- Tarjeta 1 -->
+         Tarjeta 1
         <div class="d-flex align-items-center shadow bg-white rounded p-3 mb-4">
           <div class="flex-shrink-0 d-none d-sm-flex me-4 p-3">
             <img src="ImagenesPortfolio/DePCLogo.jpg" alt="DePc" class="img-fluid baw" style="width: 100px;" title="DePcLogo">
@@ -140,7 +143,7 @@ $pg = "Sobre-mi";
           </div>
         </div>
 
-        <!-- Tarjeta 2 -->
+         Tarjeta 2
         <div class="d-flex align-items-center shadow bg-white rounded p-3 mb-4">
           <div class="flex-shrink-0 d-none d-sm-flex me-4 p-3">
             <img src="ImagenesPortfolio/DePCLogo.jpg" alt="DePc" class="img-fluid baw" style="width: 100px;" title="DePcLogo">
@@ -155,6 +158,7 @@ $pg = "Sobre-mi";
 
       </div>
     </section>
+        -->
       <!--Formación académica-->
       <section id="formacion">
         <div class="container">
@@ -223,8 +227,8 @@ $pg = "Sobre-mi";
         </div>
         <div class="row">
             <div class="col-3 text-center ">
-                <a href="https://github.com" target="_blank" title="github"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin (Terminar de poner el link de mi linkedin)" target="_blank" title="linkediin"> <i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Tasio025" target="_blank" title="github"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tasio-alvarez-80b52b259/" target="_blank" title="linkedin"> <i class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="col-3">
                 Sponsor <a href="https://DePcSuite.com"></a> DePc Suite
