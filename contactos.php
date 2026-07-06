@@ -62,16 +62,16 @@ header("Location: confirmacion_envio.php");
                 </div>
                 <div class="col-12 col-sm-6">
                     <form action="" method="post"><!--Acá ene ste formulario dibujaremos los controles-->
-                        <div class="pb-3" class="form-control">
+                        <div class="pb-3 form-control">
                             <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre">
                         </div>
-                        <div class="pb-3" class="form-control">
+                        <div class="pb-3 form-control">
                             <input type="text" name="txtCorreo" id="txtCorreo" placeholder="Correo">
                         </div>
-                        <div class="pb-3" class="form-control">
+                        <div class="pb-3 form-control">
                             <input type="text" name="txtTel" id="txtTel" placeholder="Teléfono/Whatsapp">
                         </div>
-                        <div class="pb-3" class="form-control">
+                        <div class="pb-3 form-control">
                             <textarea type="text" name="txtMensaje" id="txtMensaje" style="width: 608px; height: 71px;" placeholder="Escriba su mensaje aquí..."></textarea>
 
                         </div>
@@ -89,14 +89,14 @@ header("Location: confirmacion_envio.php");
         </div>
         <div class="row">
             <div class="col-3 text-center ">
-                <a href="https://github.com" target="_blank" title="github"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin (Terminar de poner el link de mi linkedin)" target="_blank" title="linkediin"> <i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Tasio025" target="_blank" title="github"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tasio-alvarez-80b52b259/" target="_blank" title="linkedin"> <i class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="col-3">
-                Sponsor <a href="https://DePcSuite.com"></a> DePc Suite
+                Sponsor <a href="https://DePcSuite.com">DePc Suite</a>
             </div>
             <div class="col-3">
-                <a href="mailto: tasioalvarez11@gmail.com">tasioalvarez11@gmail.com</a>
+                <a href="mailto:tasioalvarez11@gmail.com">tasioalvarez11@gmail.com</a>
             </div>
             <div class="col-3">
                 

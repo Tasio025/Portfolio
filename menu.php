@@ -15,12 +15,12 @@
                                 <a class="nav-link" <?php echo ($pg == "Proyectos")? "active": ""; ?> href="proyectos.php">Proyectos</a>
                               </li>
                               <li class="nav-item">
-                                <a href="contactos.php" <?php echo ($pg == "Contactos")? "active": ""; ?> class="nav-link active">Contactos</a><!--El profe le agrega "active" la parte
+                                <a href="contactos.php" class="nav-link" <?php echo ($pg == "Contactos")? "active": ""; ?> >Contactos</a><!--El profe le agrega "active" la parte
                                 del nav-link en la que estamos, en este caso "Contactos"-->
                               </li>
                             </ul>
                             <div class="cv">
-                                <a href="">Descargar mi CV <i class="fas fa-download"></i></a>
+                                <a href="" target="_blank">Descargar mi CV <i class="fas fa-download"></i></a>
                             </div>
                           </div>
                         </div>

@@ -231,10 +231,10 @@ $pg = "Sobre-mi";
                 <a href="https://www.linkedin.com/in/tasio-alvarez-80b52b259/" target="_blank" title="linkedin"> <i class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="col-3">
-                Sponsor <a href="https://DePcSuite.com"></a> DePc Suite
+                Sponsor <a href="https://DePcSuite.com">DePc Suite</a>
             </div>
             <div class="col-3">
-                <a href="mailto: tasioalvarez11@gmail.com">tasioalvarez11@gmail.com</a>
+                <a href="mailto:tasioalvarez11@gmail.com">tasioalvarez11@gmail.com</a>
             </div>
             <div class="col-3">
                 
