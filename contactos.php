@@ -58,7 +58,7 @@ header("Location: confirmacion_envio.php");
             </div>
             <div class="row">
                 <div class="col-12 col-sm-6"><!--Acá 2 filas de 6-->
-                    <p>Te invito a que me contactes por whatsappppp</p>
+                    <p>Te invito a que me contactes por whatsapp</p>
                 </div>
                 <div class="col-12 col-sm-6">
                     <form action="" method="post"><!--Acá ene ste formulario dibujaremos los controles-->
