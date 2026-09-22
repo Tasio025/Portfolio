@@ -54,7 +54,7 @@ header("Location: confirmacion_envio.php");
     <main class="container"> <!--Ahora empezamos a dibujar las filas y columnas-->
         <div class="row">
             <div class="col-12 pt-3 pb-5">
-                <h1>Contacto</h1> <!--Acá la primera fila-->
+                <h1>Contactos</h1> <!--Acá la primera fila-->
             </div>
             <div class="row">
                 <div class="col-12 col-sm-6"><!--Acá 2 filas de 6-->
