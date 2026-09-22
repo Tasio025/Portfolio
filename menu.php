@@ -20,7 +20,7 @@
                               </li>
                             </ul>
                             <div class="cv">
-                                <a href="" target="_blank">Descargar mi CV <i class="fas fa-download"></i></a>
+                                <a href="cv/Tasio_Alvarez_CV (1).pdf" download target="_blank">Descargar mi CV <i class="fas fa-download"></i></a>
                             </div>
                           </div>
                         </div>

@@ -25,7 +25,7 @@ $cabeceras .= "Content-type: text/html; charset=UTF-8" . "\r\n"; //Aca tengo que
 
 //Cabeceras adicionales
 $cabeceras .= "To: tasioalvarez11@gmail.com";  //Cabecera adicional
-$cabeceras .= "From: info@(nombre de mi dominio)";
+$cabeceras .= "From: tasioalvarez11@gmail.com";
 
 //Enviarlo
 mail($para, $titulo, $cuerpo, $cabeceras);
@@ -63,16 +63,16 @@ header("Location: confirmacion_envio.php");
                 <div class="col-12 col-sm-6">
                     <form action="" method="post"><!--Acá ene ste formulario dibujaremos los controles-->
                         <div class="pb-3 form-control">
-                            <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre">
+                            <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" required>
                         </div>
                         <div class="pb-3 form-control">
-                            <input type="text" name="txtCorreo" id="txtCorreo" placeholder="Correo">
+                            <input type="text" name="txtCorreo" id="txtCorreo" placeholder="Correo" required>
                         </div>
                         <div class="pb-3 form-control">
-                            <input type="text" name="txtTel" id="txtTel" placeholder="Teléfono/Whatsapp">
+                            <input type="text" name="txtTel" id="txtTel" placeholder="Teléfono/Whatsapp" required>
                         </div>
                         <div class="pb-3 form-control">
-                            <textarea type="text" name="txtMensaje" id="txtMensaje" style="width: 608px; height: 71px;" placeholder="Escriba su mensaje aquí..."></textarea>
+                            <textarea type="text" name="txtMensaje" id="txtMensaje" style="width: 608px; height: 71px;" placeholder="Escriba su mensaje aquí..." required></textarea>
 
                         </div>
                         <div class="">
@@ -83,10 +83,10 @@ header("Location: confirmacion_envio.php");
             </div>
         </div>
     </main>
+    <a href="https://wa.me/5491150448389" target="_blank" class="btn-whatsapp" id="btn-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+    </a>
     <footer class="container mt-auto pb-4">
-        <div class="btn-whatsapp" id="btn-whatsapp">
-            BTN
-        </div>
         <div class="row">
             <div class="col-3 text-center ">
                 <a href="https://github.com/Tasio025" target="_blank" title="github"><i class="fab fa-github"></i></a>

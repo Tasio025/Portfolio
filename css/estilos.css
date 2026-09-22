@@ -100,10 +100,27 @@ p{
 }
 .btn-whatsapp{
     position: fixed;
-    right: 50px;
-    bottom: 0px;
-    background-color: rgb(100, 6, 183);
+    right: 30px;
+    bottom: 30px;
+    background-color: #25D366;
     color: white;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    text-decoration: none;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.4);
+    z-index: 999;
+}
+
+.btn-whatsapp:hover{
+    background-color: #128C7E;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.2s ease;
 }
 footer .row{
     display: flex;

@@ -1,5 +1,5 @@
 <?php
-$pg = "Contactos";
+$pg = "Confirmacion";
 ?>
 <html lang="es">
 <head>
