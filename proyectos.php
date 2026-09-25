@@ -42,13 +42,10 @@ $pg = "Proyectos";
             <div class="col-12 p-0">
               <img src="imagenes/Imagenes/abmclientes.png" alt="ABM CLIENTES" class="img-fluid"> 
                <h2>ABM CLIENTES</h2>
-                <p class="py-2 px-3">Alta, baja y modificación de un registro...</p>
-            </div>
-            <div class="col-6">
-              <a href="#" class="btn-rojo">Ver online</a>
+                <p class="py-2 px-3" style="color: grey;">Alta, baja y modificación de un registro de clientes. Otra de las actividades que realicé en el curso de desarrollador Web Full Stack. Realizado con PHP, JS, HTML y CSS (Boottrap)</p>
             </div>
             <div class="col-6 text-center">
-              <a href="#" class="link-rojo">Codigo fuente</a>
+              <a href="https://github.com/Tasio025/abmClientes.git" class="link-rojo">Codigo fuente</a>
             </div>
           </div>
         </div>
@@ -57,13 +54,13 @@ $pg = "Proyectos";
             <div class="col-12 p-0">
               <img src="imagenes/Imagenes/abmventas.png" alt="GESTION DE VENTAS" class="img-fluid"> 
               <h2>SISTEMA GESTIÓN DE VENTAS</h2>
-              <p class="py-2 px-3">Sistema de gestión de clientes, productos...</p>
+              <p class="py-2 px-3" style="color: grey;">Sistema de gestión de clientes, productos...</p>
             </div>
             <div class="col-6">
               <a href="#" class="btn-rojo">Ver online</a>
             </div>
             <div class="col-6 text-center">
-              <a href="#" class="link-rojo">Codigo fuente</a>
+              <a href="" class="link-rojo">Codigo fuente</a>
             </div>
           </div>          
         </div>
@@ -71,14 +68,14 @@ $pg = "Proyectos";
             <div class="row border proyecto pb-5">
             <div class="col-12 p-0">
               <img src="imagenes/Imagenes/proyecto-integrador.png" alt="PROYECTO INTEGRADOR" class="img-fluid"> 
-              <h2>PROYECTO INTEGRADOR</h2>
-               <p class="py-2 px-3">Proyecto integrador desarrolladdo en PHP, Laravel, Javascript...</p>
+              <h2>PROYECTO Gula Burguers SRL</h2>
+               <p class="py-2 px-3" style="color: grey;">Proyecto integrador del BOOTCAMP DePC Suite. Desarrolladdo en PHP, Laravel y Javascript. Gula Burguers es una aplicación completa con arquitectura MVC, panel administrativo y tienda pública.</p>
             </div>
-            <div class="col-6">
+            <!--<div class="col-6">
               <a href="#" class="btn-rojo">Ver online</a>
-            </div>
+            </div>-->
             <div class="col-6 text-center">
-              <a href="#" class="link-rojo">Codigo fuente</a>
+              <a href="https://github.com/Tasio025/Portfolio.git" class="link-rojo">Codigo fuente</a>
             </div>
           </div>
         </div>
@@ -108,7 +105,6 @@ $pg = "Proyectos";
     <footer class="container mt-auto pb-4">
         <div class="btn-whatsapp" id="btn-whatsapp">
           <i class="fa-brands fa-whatsapp"></i>
-            BTN
         </div>
         <div class="row">
             <div class="col-3 text-center ">

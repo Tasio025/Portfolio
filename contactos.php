@@ -84,7 +84,7 @@ header("Location: confirmacion_envio.php");
         </div>
     </main>
     <a href="https://wa.me/5491150448389" target="_blank" class="btn-whatsapp" id="btn-whatsapp">
-            <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-whatsapp"></i>
     </a>
     <footer class="container mt-auto pb-4">
         <div class="row">

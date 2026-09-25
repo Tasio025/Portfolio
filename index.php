@@ -30,10 +30,10 @@ $pg = "inicio";
     <main class="container">
       <div class="row">
         <div class="col-12 mx-auto text-center cohete">
-          <a href="proyectos.html"><img src="imagenes/Imagenes/cohete.svg" alt=""></a>
+          <a href="proyectos.php"><img src="imagenes/Imagenes/cohete.svg" alt=""></a>
         </div>
         <div class="col-12 col-sm-6 col offset-sm-3 text-center ">
-          <div class="my-4"><p class="px-5 py-2">Bienvenido a mi sitio web sobre desarrollo de sistemas</p></div>
+          <div class="my-4"><p class="px-5 py-2" style="color: grey;">Bienvenido a mi sitio web sobre desarrollo de sistemas</p></div>
           <!--CAMBIAR DE COLOR LAS LETRAS DE ESTE TEXTO-->
         </div>
          <div class="col-12 text-center my-3">

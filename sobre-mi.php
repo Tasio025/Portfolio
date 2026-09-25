@@ -16,14 +16,6 @@ $pg = "Sobre-mi";
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<!--PARA TERMINAR: 
-2_ AGREGAR MÁS INFORMACIÓN PERSONAL
-3_ AGREGAR HERRAMIENTAS COMO LAS DE NELSON
-4_ PONER INFO EN EXPERIENCIA LABORAL
-5_ COMPLETAR "FORMACIÓN ACADÉMICA"
-6_ COMPLETAR "CURSOS DE DESARROLLO PERSONAL"
-7_ MEJORAR EL ESTILO DEL BOTÓN HAMBURGUESA DEL HEADDER DE LA VERSIÓN NOBILE
-9_ AJUSTAR BOTÓN DE WHATSAPP-->
 <body id="sobre-mi">
 <header class="container">
     <?php include_once("menu.php") ?>
@@ -33,8 +25,7 @@ $pg = "Sobre-mi";
         <div class="row mb-5">
           <div class="col-12 col-sm-7">
             <h1 class="pb-5 pt-3">Sobre mí</h1>
-            <p>Apasionado por la tecnología. Soy alumno de Licenciatura en Sistemas
-               en la universidad de Morón, y tengo conocimientos como desarrollador web.</p>
+            <p>Estudiante de Licenciatura en Sistemas (UM) con formación complementaria en desarrollo web, buscando mi primera oportunidad como desarrollador junior o pasante. Experiencia práctica construyendo una aplicación web full-stack completa con PHP y Laravel (arquitectura MVC, MySQL, panel administrativo con control de permisos y tienda online con carrito de compras funcional). Cómodo trabajando con HTML, CSS, JavaScript, Bootstrap y Git/GitHub. Perfil proactivo, con buena capacidad de debugging y aprendizaje autónomo, disponible para compatibilizar el puesto con mis estudios universitarios.</p>
                <div class="">
                 <a href="contactos.html" class="btn btn-rojo mt-4">Enviar mensaje</a>
                </div>
@@ -213,9 +204,16 @@ $pg = "Sobre-mi";
           </div>
           <div class="row shadow bg-white rounded p-3 mb-4 align-items-center">
            <div class="col-10 col-md-11">
-            <h3><i class="fa-solid fa-chalkboard-user"></i>Programa fomentar empleo</h3>
+            <h3><i class="fa-solid fa-chalkboard-user"></i>Bootcamp programación web Full Stack</h3>
             <h4>Desarrollador Web Full Stack</h4>
-            <h5>2024</h5>
+            <h5>2026</h5>
+          </div>
+          </div>
+          <div class="row shadow bg-white rounded p-3 mb-4 align-items-center">
+           <div class="col-10 col-md-11">
+            <h3><i class="fa-solid fa-chalkboard-user"></i>English</h3>
+            <h4>First Certificate in English, Nivel B2</h4>
+            <h5>2025</h5>
           </div>
           </div>
         </div>

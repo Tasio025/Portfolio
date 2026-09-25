@@ -43,7 +43,7 @@ h1{
     background-color: rgb(100, 6, 183);
 }
 p{
-    color: grey;
+    color: rgb(252, 252, 252);
 }
 #contacto footer a, #inicio footer a{
     color: rgb(100, 6, 183);
@@ -203,9 +203,9 @@ form input[type=text], form input[type=date], form input[type=tel], form input[t
     height: 410px;
 }
 #inicio p{
-   color: white; 
+   color: rgb(224, 17, 17); 
    font-size: 17px;
-   border: 1px white solid;
+   border: 1px rgb(195, 3, 3) solid;
    border-radius: 15px;
    font-weight: 600;
 
